@@ -106,3 +106,23 @@ h1 {
 img {
     border: 3px solid #3882F6;
 }
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote .text {
+    font-weight: thin;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+ }
