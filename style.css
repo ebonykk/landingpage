@@ -193,3 +193,10 @@ img {
     padding: 5px 10px;
     width: 100px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 30px;
+}
