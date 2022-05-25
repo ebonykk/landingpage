@@ -172,10 +172,19 @@ img {
     justify-content: right;
 }
 
-button {
+.buttn button {
     color: white;
     background-color: #3882F6;
     border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.left button {
+    color: white;
+    background-color: #3882F6;
+    border: 0px solid #3882F6;
     border-radius: 5px;
     padding: 5px 10px;
     width: 100px;
