@@ -138,24 +138,38 @@ img {
 .fourth {
     display: flex;
     flex-direction: column;
+    
 }
 
 .callaction {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #3882F6;
-    border-radius: 7px;
+    gap: 100px;
+    padding: 30px 100px;
+    margin: 50px;
+    border-radius: 5px;
 }
 
 .calltext {
     display: flex;
     flex-direction: column;
     color: white;
+    margin: 25px;
 }
 .calltext h3 {
     display: flex;
     justify-content: left;
+    margin: 2px;
+}
+
+.calltext p {
+    margin: 2px;
+}
+.buttn {
+    display: flex;
+    justify-content: right;
 }
 
 button {
