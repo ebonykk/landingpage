@@ -135,3 +135,33 @@ img {
     font-size: 16px;
  }
  
+.fourth {
+    display: flex;
+    flex-direction: column;
+}
+
+.callaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+}
+
+.calltext {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.calltext h3 {
+    display: flex;
+    justify-content: left;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+}
