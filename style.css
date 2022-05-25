@@ -42,7 +42,7 @@ h1 {
     height: 125px;
 }
 
-.content {
+.headtext {
     display: flex;
     gap: 15px;
     margin-top: 30px;
@@ -109,20 +109,30 @@ img {
 
 .third {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-
+    display: flex; 
 }
 
-.quote .text {
+.thirdcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 90px;
+}
+.quote {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: thin;
     font-style: italic;
     font-size: 36px;
-    color: #1F2937
+    color: #1F2937;
+    padding: 50px 80px;
 }
 
-.quote .author {
+.author {
     display: flex;
     justify-content: flex-end;
     font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
  }
+ 
