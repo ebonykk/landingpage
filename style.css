@@ -145,6 +145,7 @@ img {
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
+    border-radius: 7px;
 }
 
 .calltext {
