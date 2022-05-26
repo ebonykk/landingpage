@@ -58,8 +58,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    /* padding: 20px;
+    /* background-color: gray;
+     padding: 20px;
     margin: 20px; */
     width: 45%;
 
@@ -109,7 +109,7 @@ h1 {
 }
 
 img {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .third {
