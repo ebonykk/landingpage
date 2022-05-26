@@ -48,19 +48,25 @@ h1 {
 
 .headtext {
     display: flex;
-    gap: 15px;
-    margin-top: 30px;
-    padding-bottom: 40px;
+    justify-content: space-between;
+    margin: 40px 0px;
+    gap: 10px;
 }
 
 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
+    width: 45%;
+
 }
 
 .left {
-    margin-right: 20px;
+    width: 45%;
+    height: auto;
 }
 
 .left p,
@@ -74,20 +80,13 @@ h1 {
     justify-content: center;
 }
 
-/* .second .boxes {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-} */
-
 .boxes {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
     overflow: none;
+    flex-wrap: wrap;
 }
 
 .boxes img {
@@ -109,6 +108,7 @@ h1 {
 
 img {
     border: 3px solid #3882F6;
+
 }
 
 .third {
