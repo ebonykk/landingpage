@@ -90,7 +90,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.boxes img {
+.boxes .imgdiv {
     height: 180px;
     width: 180px;
     margin: auto;
@@ -98,6 +98,7 @@ h1 {
     justify-content: center;
     border-radius: 25px;
     overflow: hidden;
+    border: 3px solid #3882F6;
 }
 
 .boxes p {
@@ -108,8 +109,7 @@ h1 {
 }
 
 img {
-    border: 3px solid #3882F6;
-
+    visibility: hidden;
 }
 
 .third {
